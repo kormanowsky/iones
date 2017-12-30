@@ -1,0 +1,93 @@
+body{
+    background:#212121;
+    color:#fff;
+    font-family:"Fira Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    margin:0;
+}
+
+*{
+    font-family: inherit;
+}
+
+a{
+    color:#ffd700;
+    text-decoration: none;
+}
+
+h1{
+    color:#ffd700;
+    font-size:6vh;
+    margin-bottom:20px;
+}
+
+h2{
+    font-weight:400;
+    
+}
+
+#input {
+    margin-bottom:20px;
+}
+
+#input #text{
+    background: transparent;
+    font:inherit;
+    color:#ffd700;
+    outline:none;
+    border-style:solid;
+    border-color:#ffd700;
+    border-width:0 0 2px 0;
+    font-size:24px;
+    padding:10px 0;
+    display: block;
+    text-align: inherit;
+}
+
+#input #btn{
+    background:#ffd700;
+    color:#212121;
+    padding:10px 20px;
+    font-size:24px;
+    border-radius:10px;
+    border:0;
+    display: block;
+    max-width:400px;
+}
+
+#input input[type="checkbox"]{
+    margin:24px;
+    vertical-align: baseline;
+}
+
+
+#input input:not([type="checkbox"]), #input button{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 24px;
+    width:50vw;
+}
+
+#results{
+    margin-top:40px;
+}
+
+#results #formula{
+    font-size:48px;
+    font-weight:bold;
+}
+
+#results #formula sup{
+    font-weight:400;
+    font-size:0.7em;
+    color:#ffd700;
+}
+
+#input #text, #result #name {
+    text-transform:  lowercase;
+}
