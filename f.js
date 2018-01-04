@@ -121,8 +121,6 @@ IONES.init = function(){
     this.add('сер[а|ы]', 'S', -2, 0, false, 0, [-2, 2, 4, 6]);
     this.add('сульфид|сероводородная', 'S', -2, 0, true);
     this.add('мед[ь|и]', 'Cu', 2, 0, false, 0, [1, 2]);
-    this.add('гидроксосульфат', 'OHSO4', -3, 0, true);
-    this.add('дигидроксосульфат', '(OH)2SO4', -4, 0, true);
     this.add('желез[о|а]', 'Fe', 3, 0, false, 0, [2, 3]);
     this.add('кислород', 'O2', 0, 0, true);
     this.add('углерод[а]?', 'C', 4, 0, false, 0, [4, 3, 2, 1, 0, -1, -2, -3, -4]);
@@ -130,7 +128,6 @@ IONES.init = function(){
     this.add('кислота', 'H', 1, 0, true);
     this.add('кислорода', 'O', 2, 0, true);
     this.add('лити[й|я]', 'Li', 1, 0, true);
-    this.add('полынат', 'PnO3', -2, 0, true);
 }
 //Получает формулу по русскому названию
 IONES.getFormula = function(rus){
